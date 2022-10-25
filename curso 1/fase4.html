@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--
+        Tabela:
+        Fatores importantes para tabela:
+         1 Titulo da tabela
+         2 Corpo da tabela
+         3 Fonte (a origem dos dados)
+       
+         Em html o elemento <table> e responsavel 
+        por marca o inicio e o fim de uma tabela
+        existem outros elementos que montam essa tabela
+        como:
+          tr- table row (linha da tabela)
+          td- table data (dado/celula da tabela)
+          
+          PS: Não é o padrão mas podemos usar um paramentro
+          no table que ira fazer aparecer as linha dividindo
+          o nome dele é BORDER.
+
+        thead- marca o titulo da tabela
+        th - celula do titulo da tabela
+        tbody -tag é usada para agrupar 
+        o conteúdo do corpo em uma tabela HTML.
+        caption - serve pra fezer uma legenda na tabela.
+
+    -->
+    <table border="">
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>jogo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mileena</td>
+                <td>Mortal Kombat</td>
+            </tr>
+            <tr>
+                <td>Lara Croft</td>
+                <td>Tomb Raider</td>
+            </tr>
+        </tbody>
+        <caption>nome e jogo das personagens que gosto</caption>
+    </table>
+
+    <!--
+       Hiperlink:
+         Hiperlinks criam ligaç~pes entre os documentos
+        para criar um hiperlink você deve usar a tag <a>
+        juntamente com o atributo href que é reponsavel por
+        guarda o endereço de onde o link aponta e com o conteudo
+        que é o que você quer transforma em um link.
+          
+        EX:<a href="url">conteúdo do link</a> 
+     -->
+    <!--LInk absoluto:se refere ao link partindo do diretório raiz
+    ou seja é o o caminho para chegar até o endereço específico
+         EX:-->
+    <p>
+        <a href="#outras">outras</a>
+        Estou criando um link para
+        <a href="https://www.google.com.br"> a pagina inicial do google</a>
+    </p>
+    <!--Link relativo:parte da pasta em que você está no momento
+    como o próprio nome diz, é relativo à pasta base na qual você está
+    
+    EX:-->
+    <p>
+        link para outras fases: <br>
+        <a href="introdução.html"> introdução</a><br>
+        <a href="fase2.html"> fase 2</a><br>
+        <a href="fase3.html"> fase 3</a><br>
+        <!--subida de nivel:
+        para subir de nivel usamos dois pontos ".."-->
+        <a href="../dicas iniciais/index.html"> dicas iniciais</a>
+        <!--
+            Também podemos referenciar partes potesriores da mesma pagina
+            usando link pra isso vamos precisar de um intentificador "id"
+            apos isso usamos o # sigdo do id como parametro do href
+        -->
+        <h2>introdução</h2>
+        Um menino que só tem uma perna, fuma um cachimbo e usa um gorro vermelho. Um jacaré gigante que atormenta as crianças e uma mula que expele fogo pelo pescoço. 
+Conhecem esses estranhos personagens? Eles fazem parte do riquíssimo folclore brasileiro.
+Para prestigiar nossa cultura, em 22 de agosto é comemorado o Dia do Folclore.
+ Algumas histórias desses mitos e lendas variam de acordo com as diferentes regiões do Brasil.
+  Isto porque cada personagem do folclore possui sua própria história e características diferentes. 
+  Será que você os conhece?
+
+  <h2>Cuca</h2>
+Quem nunca ficou com medo de ser raptado ao ouvir a cantiga “Nana neném que a Cuca vem pegar…”?
+A lenda da Cuca parece ter surgido na Espanha e em Portugal. Lá ela era chamada de “Coca” e tinha a forma de um dragão. 
+Acredita-se que a lenda tenha viajado até o Brasil na época da colonização portuguesa. 
+Mas fama, mesmo, ela ganhou muitos anos depois, nas histórias do Sítio do Pica Pau Amarelo, de Monteiro Lobato. 
+ Associada ao bicho papão, a figura da Cuca é usada para fazer medo às crianças que não obedecem seus pais e não querem dormir.
+        <h2 id="outras">Outras personagens</h2>
+        <ol>
+            <li>Kitana</li>
+            <li>bayoneta</li>
+            <li>ada wong</li>
+        </ol>
+        <!--Link para email-->
+        <a href="mailto:richellekim10@hotmail.com">contato de email</a>
+    </p>
+</body>
+
+</html>
