@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase7</title>
+</head>
+<body>
+    <!--
+        form:É uma ferramenta pensada para permite a interação dos
+        usuarios com uma página web esse formulario é composto por elementos do
+        formulario.
+        A tag form funciona como um tipo de contener que armazena outros tipo de 
+        elementos taís como  compos de texto,caixas de seleção,butoes de envio entre outros
+
+        input:ele é responsavel por definir os mecanismos que serão usados na interface para
+         que a entrada de dados aconteça o atributo type é responsavel pelo que será exibido
+         Tipos de input:
+         <input type="text">=<input> 
+            É o tipo padrão do input,ele cria um campo de texto de linha unica.
+         <input type="radio">
+            Cria mutiplas opcoes aonde somente uma é escolhida
+        <input type="Checkbox">
+            Cria caixas de seleção aonde você pode marca mais de uma.
+        <label for="id">nome</label>
+            cria um rotulo que será associado a um elemento na interface do usuario
+        <input type="submit">
+             cria um buttao clicavel na interface que subimete os dados
+        <input type="button">
+        cria um butao sem funcionalidade definida
+            
+        Atributos de form:
+             action:serve para dizer para que arquivo os dados vão
+             Methot: especifica qual sera o metodo qunado os dados forem enviados
+             seus valores podem ser:
+             GET:methodo padrão de envio de dados
+             POST:os dados são enviados no corpo da solocitação
+
+    -->
+    <h1>Acesse sua conta:</h1>
+    <form action="../index.html" method="get">
+        <ul>
+            <li>
+        <label for="nome">Nome do usuario:</label>
+       <input type="text" id="nome" name="nomeusuario">
+            </li>
+            <li>
+        <label for="senha">Senha:</label>
+       <input type="password" id="senha" name="senhausuario">
+            </li>
+        </ul>
+       
+       
+       <input type="submit" value="Logar">
+    </form>
+    
+</body>
+</html>
