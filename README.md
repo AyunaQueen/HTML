@@ -1,4 +1,4 @@
-<h1 aling="center">HTML</h1>
+<h1 align="center">:closed_book: HTML :closed_book:</h1>
 local aonde coloco meus ensinamento sobre html.
 estão localizadas minhas anotações e alguns exercicios,além de alguns exemplos.
 
