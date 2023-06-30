@@ -3,8 +3,9 @@ local aonde coloco meus ensinamento sobre html.
 estão localizadas minhas anotações e alguns exercicios,além de alguns exemplos.
 
 
+
  <div align="center">
-   <h2 align="center">Contribuidores 💡</h2>
+   <h2 align="center">Contribuidores</h2>
    <table>
    <tr>
       <td align="center">
