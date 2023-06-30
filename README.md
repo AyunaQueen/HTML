@@ -10,7 +10,7 @@ estão localizadas minhas anotações e alguns exercicios,além de alguns exempl
    <tr>
       <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/43295714?s=400&u=372051215bac85801434935a7fee455047a0a396&v=4"/><br>
+        <img src="https://avatars.githubusercontent.com/u/43295714?s=400&u=372051215bac85801434935a7fee455047a0a396&v=4" width="100px;" /><br>
         <sub>
           <b>Richelle</b>
         </sub>
